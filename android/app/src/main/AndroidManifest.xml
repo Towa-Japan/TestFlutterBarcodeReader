@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="jp.co.towagifu.test_flutter_barcode_reader">
+    <uses-permission android:name="android.permission.CAMERA"/>
    <application
         android:label="test_flutter_barcode_reader"
         android:name="${applicationName}"
